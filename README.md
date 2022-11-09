@@ -4,7 +4,7 @@ in this tutoriel we make 2 microservice , the first one is to send message to me
 - clone project
 - you must enable amqp in php.ini localy
 - run sudo docker-compose up --build -d
-- <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>docker <span>exec</span> -it app2 php bin/console app:send
+ <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>docker <span>exec</span> -it app2 php bin/console app:send
 </code></pre><div class="zeroclipboard-container position-absolute right-0 top-0">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="docker exec -it app2 php bin/console app:send" tabindex="0" role="button" style="display: inherit;">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
@@ -15,7 +15,7 @@ in this tutoriel we make 2 microservice , the first one is to send message to me
 </svg>
     </clipboard-copy>
   </div></div>
--<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>docker <span>exec</span> -it app1 php bin/console messenger:consume -vv external_messages
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>docker <span>exec</span> -it app1 php bin/console messenger:consume -vv external_messages
 </code></pre><div class="zeroclipboard-container position-absolute right-0 top-0">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="docker exec -it app2 php bin/console app:send" tabindex="0" role="button" style="display: inherit;">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
@@ -26,7 +26,8 @@ in this tutoriel we make 2 microservice , the first one is to send message to me
 </svg>
     </clipboard-copy>
   </div></div>
-<div align="center">
+# Documentation details
+<div >
 	<br>
 	<a href="https://github.com/sindresorhus/css-in-readme-like-wat/blame/main/header.svg">
 		<img src="header.svg" width="800" height="400" alt="Click to see the source">
