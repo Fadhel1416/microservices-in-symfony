@@ -1,5 +1,9 @@
 # microservices-in-symfony
-
+in this tutoriel we make 2 microservice , the first one is to send message to messenger queue and the second will consume this message , we use symfony messgener and amqp for rabitmq transport
+# Installations
+- clone project
+- you must enable amqp in php.ini localy
+- run sudo docker-compose up --build -d
 <div align="center">
 	<br>
 	<a href="https://github.com/sindresorhus/css-in-readme-like-wat/blame/main/header.svg">
